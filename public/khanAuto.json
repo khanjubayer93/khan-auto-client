@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/06/r8_8-876x535.jpg",
+        "price": "12200",
+        "rating": "4.7",
+        "description": "The Audi R8 came about as a production version of the Le Mans Quattro concept car.",
+        "color": "Red"
+    },
+    {
+        "id": 2,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/05/q3_1-876x535.jpg",
+        "price": "32200",
+        "rating": "4.5",
+        "description": "The Audi Q3 subcompact crossover SUV debuted as a 2015 model, slotting below the compact Q5.",
+        "color": "Blue"
+    },
+    {
+        "id": 3,
+        "title": "2017 Audi A7 3.0T Prestige Quattro",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/05/a7_4-876x535.jpg",
+        "price": "35200",
+        "rating": "4.6",
+        "description": "The A7 impressively blends artful exterior design with a beautiful, highly functional cabin.",
+        "color": "Silver"
+    },
+    {
+        "id": 4,
+        "title": "2013 Audi A4 2.0T Quattro Premium Plus",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2018/07/3992dce7d2_1024-876x535.jpg",
+        "price": "29200",
+        "rating": "4.8",
+        "description": "2013 AUDI A4 2.0T QUATTRO PREMIUM PLUS! 1 OWNER! FINANCING AVAILABLE!",
+        "color": "Black"
+    },
+    {
+        "id": 5,
+        "title": "2013 Audi A7 3.0T Quattro Prestige",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2018/07/b5e6bc01e6_1024-876x535.jpg",
+        "price": "33500",
+        "rating": "4.4",
+        "description": "2013 AUDI A7 3.0 QUATTRO TIPTRONIC PRESTIGE! $69K WINDOW STICKER! FINANCING AVAILABLE!",
+        "color": "White"
+    },
+    {
+        "id": 6,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/05/q3_1-876x535.jpg",
+        "price": "32200",
+        "rating": "4.5",
+        "description": "The Audi Q3 subcompact crossover SUV debuted as a 2015 model, slotting below the compact Q5.",
+        "color": "Blue"
+    },
+    {
+        "id": 7,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/05/q3_1-876x535.jpg",
+        "price": "32200",
+        "rating": "4.5",
+        "description": "The Audi Q3 subcompact crossover SUV debuted as a 2015 model, slotting below the compact Q5.",
+        "color": "Blue"
+    },
+    {
+        "id": 8,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/05/q3_1-876x535.jpg",
+        "price": "32200",
+        "rating": "4.5",
+        "description": "The Audi Q3 subcompact crossover SUV debuted as a 2015 model, slotting below the compact Q5.",
+        "color": "Blue"
+    },
+    {
+        "id": 9,
+        "title": "2017 Audi R8 2017",
+        "image": "https://cardealer.potenzaglobalsolutions.com/wp-content/uploads/2017/06/r8_8-876x535.jpg",
+        "price": "12200",
+        "rating": "4.7",
+        "description": "The Audi R8 came about as a production version of the Le Mans Quattro concept car.",
+        "color": "Red"
+    }
+]
