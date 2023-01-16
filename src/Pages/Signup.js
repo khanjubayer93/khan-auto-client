@@ -1,7 +1,7 @@
 import { sendEmailVerification } from 'firebase/auth';
 import React, { useContext } from 'react';
 import { toast } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthProvider';
 
 const Signup = () => {
@@ -22,6 +22,8 @@ const Signup = () => {
                 verifyEmail();
                 if (user.emailVerified) {
                     toast.success('Sign up successfully')
+                    Navigate('/');
+                    form.reset();
                 }
             })
             .catch((error) => console.error(error))

@@ -1,12 +1,16 @@
 import { sendPasswordResetEmail } from 'firebase/auth';
 import React, { useContext, useState } from 'react';
 import { toast } from 'react-hot-toast';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthProvider';
 
 const Login = () => {
     const { loginUser, auth } = useContext(AuthContext);
-    const [resetEmail, setResetEmail]= useState('')
+    const [resetEmail, setResetEmail] = useState('');
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || "/";
+
     const handleLoninUser = (event) => {
         event.preventDefault();
         const form = event.target;
@@ -19,10 +23,11 @@ const Login = () => {
                 console.log(user);
                 toast.success('Log in successfully');
                 form.rset();
+                navigate(from, { replace: true });
             })
             .catch((error) => console.error(error))
     }
-    const handleResetEmail = event =>{
+    const handleResetEmail = event => {
         event.preventDefault();
         const email = event.target.value;
         setResetEmail(email)

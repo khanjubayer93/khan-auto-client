@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProductCard = ({ item }) => {
-    const { image, title, price, rating, color, description } = item;
+    const {_id, image, title, price, rating, color, description } = item;
     return (
         <div className="card w-auto bg-base-100 shadow-xl">
             <figure><img src={image} alt="Shoes" /></figure>
@@ -15,7 +16,9 @@ const ProductCard = ({ item }) => {
                 <p><span className='font-bold'>Price:</span> ${price}</p>
                 <p>Rating:{rating}</p>
                 <div className="card-actions justify-center">
-                    <button className='btn btn-secondary w-full'>Add to cart</button>
+                    <Link to={`/checkout/${_id}`}>
+                        <button className='btn btn-secondary w-full'>Add to cart</button>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -33,10 +33,13 @@ const Header = () => {
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><Link>Item 1</Link></li>
+
           {
             user?.uid ?
-              <li><Link onClick={handleLogout}>Log out</Link></li>
+              <>
+                <li><Link to='/orders'>My orders</Link></li>
+                <li><Link onClick={handleLogout}>Log out</Link></li>
+              </>
               :
               <>
                 <li><Link to='/login'>Log in</Link></li>
